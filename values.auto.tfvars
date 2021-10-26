@@ -1,7 +1,7 @@
 resource_labels         = { "provider" : "jx" }
 jx_git_url              = "https://github.com/collibra/cicd-jenkinsx-dev-cluster"
 gcp_project             = "cicd-jenkinsx-prd"
-cluster_name            = "cicd-jenkinsx-cluster-dev"
+cluster_name            = "cicd-jenkins-x-dev"
 jx_bot_username         = "cicd-jenkinsx-1"
 node_machine_type       = "n1-standard-4"
 cluster_location        = "europe-west1-b"
