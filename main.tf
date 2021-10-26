@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "cicd-jenkinsx-dgc-tfstate"
+    bucket = "cicd-jenkinsx-multi-cluster-tfstate"
     # arbitrary prefix/directory within the bucket
     prefix = "jx-dev"
   }
